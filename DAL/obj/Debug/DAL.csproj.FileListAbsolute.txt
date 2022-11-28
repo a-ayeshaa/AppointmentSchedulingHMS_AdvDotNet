@@ -1,0 +1,15 @@
+D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\bin\Debug\DAL.dll.config
+D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\bin\Debug\DAL.dll
+D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\bin\Debug\DAL.pdb
+D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\bin\Debug\EntityFramework.dll
+D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\bin\Debug\EntityFramework.xml
+D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\obj\Debug\DAL.dll
+D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\obj\Debug\DAL.pdb
+D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\obj\Debug\DAL.Migrations.UserCreatedNoVal.resources
+D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\obj\Debug\DAL.Migrations.UserCreatedWithVal.resources
