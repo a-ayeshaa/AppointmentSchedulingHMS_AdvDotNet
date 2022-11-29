@@ -51,8 +51,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccessFactory.cs" />
     <Compile Include="EF\ASHMS_Context.cs" />
+    <Compile Include="EF\Models\Patient.cs" />
     <Compile Include="EF\Models\User.cs" />
+    <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Migrations\202211281935533_UserCreatedNoVal.cs" />
     <Compile Include="Migrations\202211281935533_UserCreatedNoVal.designer.cs">
       <DependentUpon>202211281935533_UserCreatedNoVal.cs</DependentUpon>
@@ -61,8 +64,13 @@
     <Compile Include="Migrations\202211281942280_UserCreatedWithVal.designer.cs">
       <DependentUpon>202211281942280_UserCreatedWithVal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202211292112200_PatientCreatedWithVal.cs" />
+    <Compile Include="Migrations\202211292112200_PatientCreatedWithVal.designer.cs">
+      <DependentUpon>202211292112200_PatientCreatedWithVal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\PatientRepo\PatientRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202211281935533_UserCreatedNoVal.resx">
@@ -71,11 +79,15 @@
     <EmbeddedResource Include="Migrations\202211281942280_UserCreatedWithVal.resx">
       <DependentUpon>202211281942280_UserCreatedWithVal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202211292112200_PatientCreatedWithVal.resx">
+      <DependentUpon>202211292112200_PatientCreatedWithVal.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

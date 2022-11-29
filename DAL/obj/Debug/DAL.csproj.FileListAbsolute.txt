@@ -13,3 +13,4 @@ D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\obj\Debug\DAL.pdb
 D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\obj\Debug\DAL.Migrations.UserCreatedNoVal.resources
 D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\obj\Debug\DAL.Migrations.UserCreatedWithVal.resources
+D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\obj\Debug\DAL.Migrations.PatientCreatedWithVal.resources
