@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.EF.Models.PatientModels;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -22,5 +23,7 @@ namespace DAL.EF.Models
         [Required]
         [StringLength(20)]
         public string Role { get; set; }
+
+        public virtual Patient Patient { get; set; }
     }
 }

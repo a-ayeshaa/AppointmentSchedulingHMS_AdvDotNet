@@ -1,4 +1,4 @@
-﻿using DAL.EF.Models;
+﻿using DAL.EF.Models.PatientModels;
 using DAL.Interfaces;
 using DAL.Repos.PatientRepo;
 using System;

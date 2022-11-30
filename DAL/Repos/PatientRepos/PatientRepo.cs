@@ -1,4 +1,4 @@
-﻿using DAL.EF.Models;
+﻿using DAL.EF.Models.PatientModels;
 using DAL.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -22,9 +22,10 @@ namespace DAL.Repos.PatientRepo
             return obj;
         }
 
-        public bool Delete(Patient id)
+        public bool Delete(int id)
         {
-            db.Patients.Remove(id);
+            var data = db.Patients.Find(id);
+            db.Patients.Remove(data);
             return db.SaveChanges() > 0;
         }
 
@@ -38,11 +39,12 @@ namespace DAL.Repos.PatientRepo
             return db.Patients.ToList();
         }
 
-        public bool Update(Patient obj)
+        public Patient Update(Patient obj)
         {
             var dbobj = db.Patients.Find(obj.Id);
             db.Entry(dbobj).CurrentValues.SetValues(obj);
-            return db.SaveChanges() > 0;
+            db.SaveChanges();
+            return obj;
         }
     }
 }

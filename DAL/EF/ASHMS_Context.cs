@@ -1,4 +1,5 @@
-﻿using DAL.EF.Models;
+﻿using DAL.EF.Models.PatientModels;
+using DAL.EF.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;

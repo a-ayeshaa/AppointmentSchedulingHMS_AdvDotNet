@@ -53,7 +53,7 @@
   <ItemGroup>
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="EF\ASHMS_Context.cs" />
-    <Compile Include="EF\Models\Patient.cs" />
+    <Compile Include="EF\Models\PatientModels\Patient.cs" />
     <Compile Include="EF\Models\User.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Migrations\202211281935533_UserCreatedNoVal.cs" />
@@ -70,7 +70,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repos\PatientRepo\PatientRepo.cs" />
+    <Compile Include="Repos\PatientRepos\PatientRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202211281935533_UserCreatedNoVal.resx">

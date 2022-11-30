@@ -1,24 +1,14 @@
-﻿using System;
+﻿using DAL.EF.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
-using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Linq;
 
-namespace DAL.EF.Models
+namespace BLL.DTO.PatientDTOS
 {
-//    id
-//user_id
-//name
-//dob
-//registeredAt
-//gender
-//phone
-//blood_group
-    public class Patient
+    public class PatientDTO
     {
         public int Id { get; set; }
         [Required]
@@ -37,9 +27,7 @@ namespace DAL.EF.Models
         [Required]
         [StringLength(3)]
         public string BloodGroup { get; set; }
-        [ForeignKey("User")]
         public int UserId { get; set; }
 
-        public User User { get; set; }
     }
 }
