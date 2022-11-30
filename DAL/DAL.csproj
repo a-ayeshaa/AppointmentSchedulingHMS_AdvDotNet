@@ -53,6 +53,8 @@
   <ItemGroup>
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="EF\ASHMS_Context.cs" />
+    <Compile Include="EF\Models\Doctor.cs" />
+    <Compile Include="EF\Models\Patient.cs" />
     <Compile Include="EF\Models\PatientModels\Patient.cs" />
     <Compile Include="EF\Models\User.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
@@ -68,8 +70,14 @@
     <Compile Include="Migrations\202211292112200_PatientCreatedWithVal.designer.cs">
       <DependentUpon>202211292112200_PatientCreatedWithVal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202211301716043_DoctorCreatedWithVal.cs" />
+    <Compile Include="Migrations\202211301716043_DoctorCreatedWithVal.designer.cs">
+      <DependentUpon>202211301716043_DoctorCreatedWithVal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\DoctorRepo\DoctorRepo.cs" />
+    <Compile Include="Repos\PatientRepo\PatientRepo.cs" />
     <Compile Include="Repos\PatientRepos\PatientRepo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202211292112200_PatientCreatedWithVal.resx">
       <DependentUpon>202211292112200_PatientCreatedWithVal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202211301716043_DoctorCreatedWithVal.resx">
+      <DependentUpon>202211301716043_DoctorCreatedWithVal.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

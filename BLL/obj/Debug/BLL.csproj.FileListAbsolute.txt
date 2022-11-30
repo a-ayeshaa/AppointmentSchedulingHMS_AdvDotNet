@@ -10,3 +10,15 @@ D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\BLL\bin\Debug\DAL.pdb
 D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\BLL\bin\Debug\DAL.dll.config
 D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\BLL\bin\Debug\EntityFramework.xml
 D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\University\Semester 9\.NET\.NET final\project\project repo\BLL\bin\Debug\BLL.dll
+D:\University\Semester 9\.NET\.NET final\project\project repo\BLL\bin\Debug\BLL.pdb
+D:\University\Semester 9\.NET\.NET final\project\project repo\BLL\bin\Debug\DAL.dll
+D:\University\Semester 9\.NET\.NET final\project\project repo\BLL\bin\Debug\EntityFramework.dll
+D:\University\Semester 9\.NET\.NET final\project\project repo\BLL\bin\Debug\DAL.pdb
+D:\University\Semester 9\.NET\.NET final\project\project repo\BLL\bin\Debug\DAL.dll.config
+D:\University\Semester 9\.NET\.NET final\project\project repo\BLL\bin\Debug\EntityFramework.xml
+D:\University\Semester 9\.NET\.NET final\project\project repo\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\University\Semester 9\.NET\.NET final\project\project repo\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\University\Semester 9\.NET\.NET final\project\project repo\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\University\Semester 9\.NET\.NET final\project\project repo\BLL\obj\Debug\BLL.dll
+D:\University\Semester 9\.NET\.NET final\project\project repo\BLL\obj\Debug\BLL.pdb
