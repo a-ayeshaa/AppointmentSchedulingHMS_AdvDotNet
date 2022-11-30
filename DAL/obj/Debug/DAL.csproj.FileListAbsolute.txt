@@ -14,3 +14,20 @@ D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\obj\Debug\DAL.Migrati
 D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\obj\Debug\DAL.Migrations.UserCreatedWithVal.resources
 D:\Semester 10\.NET\AppointmentSchedulingHMS_AdvDotNet\DAL\obj\Debug\DAL.Migrations.PatientCreatedWithVal.resources
+D:\University\Semester 9\.NET\.NET final\project\project repo\DAL\bin\Debug\DAL.dll.config
+D:\University\Semester 9\.NET\.NET final\project\project repo\DAL\bin\Debug\DAL.dll
+D:\University\Semester 9\.NET\.NET final\project\project repo\DAL\bin\Debug\DAL.pdb
+D:\University\Semester 9\.NET\.NET final\project\project repo\DAL\bin\Debug\EntityFramework.dll
+D:\University\Semester 9\.NET\.NET final\project\project repo\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\University\Semester 9\.NET\.NET final\project\project repo\DAL\bin\Debug\EntityFramework.xml
+D:\University\Semester 9\.NET\.NET final\project\project repo\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\University\Semester 9\.NET\.NET final\project\project repo\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\University\Semester 9\.NET\.NET final\project\project repo\DAL\obj\Debug\DAL.Migrations.UserCreatedNoVal.resources
+D:\University\Semester 9\.NET\.NET final\project\project repo\DAL\obj\Debug\DAL.Migrations.UserCreatedWithVal.resources
+D:\University\Semester 9\.NET\.NET final\project\project repo\DAL\obj\Debug\DAL.Migrations.PatientCreatedWithVal.resources
+D:\University\Semester 9\.NET\.NET final\project\project repo\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+D:\University\Semester 9\.NET\.NET final\project\project repo\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\University\Semester 9\.NET\.NET final\project\project repo\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\University\Semester 9\.NET\.NET final\project\project repo\DAL\obj\Debug\DAL.dll
+D:\University\Semester 9\.NET\.NET final\project\project repo\DAL\obj\Debug\DAL.pdb
+D:\University\Semester 9\.NET\.NET final\project\project repo\DAL\obj\Debug\DAL.Migrations.DoctorCreatedWithVal.resources

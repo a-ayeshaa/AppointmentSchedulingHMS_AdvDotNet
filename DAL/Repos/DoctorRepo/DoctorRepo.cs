@@ -6,41 +6,42 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL.Repos.PatientRepo
+namespace DAL.Repos.DoctorRepo
 {
-    internal class PatientRepo : IRepo<Patient, int, Patient>
+    public class DoctorRepo : IRepo<Doctor, int, Doctor>
     {
         ASHMS_Context db;
-        public PatientRepo()
+        public DoctorRepo()
         {
             db = new ASHMS_Context();
         }
-        public Patient Add(Patient obj)
+        public Doctor Add(Doctor obj)
         {
-            db.Patients.Add(obj);
+            db.Doctors.Add(obj);
             db.SaveChanges();
             return obj;
         }
 
         public bool Delete(int id)
         {
-            db.Patients.Remove(id);
+            var data = db.Doctors.Find(id);
+            db.Doctors.Remove(data);
             return db.SaveChanges() > 0;
         }
 
-        public Patient Get(int id)
+        public Doctor Get(int id)
         {
-            return db.Patients.Find(id);
+            return db.Doctors.Find(id);
         }
 
-        public List<Patient> Get()
+        public List<Doctor> Get()
         {
-            return db.Patients.ToList();
+            return db.Doctors.ToList();
         }
 
-        public bool Update(Patient obj)
+        public bool Update(Doctor obj)
         {
-            var dbobj = db.Patients.Find(obj.Id);
+            var dbobj = db.Doctors.Find(obj.Id);
             db.Entry(dbobj).CurrentValues.SetValues(obj);
             return db.SaveChanges() > 0;
         }
